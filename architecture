@@ -1,0 +1,15 @@
+//              #HTTP Requests#
+//                     |
+//               #Person Services#
+// (this will do the data transfer) act as middle man
+//                     |
+//        #Fake person Data Access service class#
+//         (Has implementation of interface DAO)
+//                     |
+//                #DAO-Interface#
+//  (Responsible for storing data some where could be
+//               Array or Database)
+//                        
+//
+//
+
