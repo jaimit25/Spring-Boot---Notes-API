@@ -27,7 +27,7 @@ import com.example.Tutorial.service.PersonService;
 // class will be used as REST Controller
 public class PersonController {
 
-    private final PersonService personservice;
+    private final PersonService personservice; // It should have interface but for now we are using class
 
     @Autowired
     public PersonController(PersonService personservice) {
